@@ -9,4 +9,9 @@ public class Hello {
     public String home(){
         return "Hello World!";
     }
+   
+    @GetMapping("/home2")
+    public String home2(){
+        return "Hello World 2!";
+    }
 }
